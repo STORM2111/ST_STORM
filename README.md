@@ -5,7 +5,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://instagram.com/st._.storm" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="st._.storm" height="30" width="40" /></a>
+<a href="https://instagram.com/https://www.instagram.com/st._.storm?utm_source=qr&igsh=mw16zzdmbthxymtlzq==" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/st._.storm?utm_source=qr&igsh=mw16zzdmbthxymtlzq==" height="30" width="40" /></a>
 <a href="https://discord.gg/_storm._" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="_storm._" height="30" width="40" /></a>
 </p>
 
