@@ -47,10 +47,19 @@ public class shop{
             continue;
         }
 
-        else{
         cash = input.nextDouble();
-        break;
-        }
+
+        if(cash <= 0){
+                System.out.println(RED+"\n ❌ Please enter (num) > 0 ❌ \n"+RESET);
+                continue;
+            }
+            
+        else{
+                break;
+            }
+    
+        
+        
     }
     
 
@@ -93,7 +102,7 @@ public class shop{
 
 
             if (!input.hasNextInt()) {
-                System.out.println(RED+"\n ❌ Please enter only the numbers in the list ❌ \n"+RESET);
+                System.out.println(RED+"\n ❌ Please enter only the numbers betowen 1 - 2 ❌ \n"+RESET);
                 input.next();
                 continue;
             }
@@ -101,20 +110,34 @@ public class shop{
             int show = input.nextInt();
             if(show == 1){
                 System.out.println(GREEN+"\n your cash is --> " + cash +"$"+RESET);
-            }
-            else if(show == 2){
-                System.out.print(GREEN+"\n Enter how much you need to add : "+RESET);
-
-            if (!input.hasNextInt()) {
-                System.out.println(RED+"\n ❌ Please enter only the numbers in the list ❌ \n"+RESET);
-                input.next();
                 continue;
             }
 
-            int cash_2 = input.nextInt();
-            cash+=cash_2;
-            System.out.println(GREEN+"\n\n-----\n OK add \n-----\n\n"+RESET);
+            else if(show == 2){
+                System.out.print(GREEN+"\n Enter how much you need to add : "+RESET);
+            if(!input.hasNextInt()) {
+                System.out.println(RED+"\n ❌ Please enter only the numbers betowen 1 - 2 ❌ \n"+RESET);
+                input.next();
+                continue;
             }
+            int cash_2 = input.nextInt();
+            if(cash_2 <= 0){
+                System.out.println(RED+"\n ❌ Please enter (num) > 0 ❌ \n"+RESET);
+            }
+                cash+=cash_2;
+                continue;
+            }
+            else if(show >= 3||show <= 0){
+                System.out.println(RED+"\n ❌ Please enter only the numbers betowen 1 - 2 ❌ \n"+RESET);
+                continue;
+            }
+                
+
+
+            
+            System.out.println(GREEN+"\n\n-----\n OK add \n-----\n\n"+RESET);
+            
+
             }
 
 
@@ -224,7 +247,7 @@ public class shop{
             }
 
             else{
-                System.out.println(RED+"\n please Enter 0 - 5 only (or 9 to remove) \n"+RESET);
+                System.out.println(RED+"\n ❌ Please enter only the numbers in the list ❌ \n"+RESET);
             }
         }
 
